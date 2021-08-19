@@ -1,3 +1,17 @@
-# Site_TecnoFlow
+# Site TecnoFlow
 
-Site desenvolvido em HTML, CSS e Java Script. É uma simulação de um e-commerce de aparelhos eletrônicos. Foi feito com a ajuda de outra programadora.
+Este site está sendo desenvolvido com o intuito de ser uma simulação de um e-commerce para aparelhos eletrônicos. Será responsivo.
+
+## Linguagens:
+* HTML
+* CSS
+* Java Script
+
+## Desenvolvedoras:
+
+* https://github.com/GeovanaBeatriz
+* https://github.com/NicoleCharale
+
+### Situação:
+Em andamento.
+
