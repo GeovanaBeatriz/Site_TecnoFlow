@@ -73,55 +73,121 @@ body{
     justify-content: space-around;
 }
 
-.titulos {
+#cabecalho .titulos {
     color: #707070;
     font-size: 2.5em;
     text-transform: uppercase;
     margin-bottom: 1em;
 }
 
-#imagem-perfil {
+#cabecalho #imagem-perfil {
     width: 12em;
     border-radius: 100%;
+    margin-bottom: 2em;
 }
 
-#cadastro {
+#login {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.txt-box {
+#login .txt-box {
     width: 18em;
     height: 2.2em;
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
-    border-radius: 10px;
+    border-radius: 50px;
     border: solid 1px #707070;
     padding-left: 10px;
 }
 
-.botao {
+#login .botao {
     width: 11em;
     height: 2em;
     border: solid 2px #7531b8;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 50px;
     text-decoration: none;
     color: #707070;
     padding-top: 7px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    letter-spacing: .5px;
 }
 
-.botao:active {
+#login .botao:active {
     transition: 0.2s;
     background-color: #7531b8;
     color: white;
 }
 
+/*TELA DE CADASTRO*/
 
+#cadastro{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    
+   
+}
+
+#cabecalho h2{
+    color: #707070;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    
+}
+
+#cabecalho h3{
+    color: #707070;
+    font-size: 1.5em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+form{
+   
+    background-color: rgba(247, 247, 247, 0.644);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    width: 17em;
+    
+}
+
+.txt-box2{
+    width: 18em;
+    height: 2.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 50px;
+    border: solid 1px #707070;
+    padding-left: 10px;
+    
+
+}
+
+.botao-cad{
+    width: 11em;
+    height: 2em;
+    border: solid 2px #7531b8;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #707070;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    letter-spacing: .5px;
+}
 
 
 @media screen and (min-width: 48.75em){
