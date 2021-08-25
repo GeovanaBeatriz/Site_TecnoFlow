@@ -115,7 +115,7 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     letter-spacing: .5px;
 }
 
@@ -123,6 +123,20 @@ body{
     transition: 0.2s;
     background-color: #7531b8;
     color: white;
+}
+
+#btn-cad{
+    margin-bottom: 1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#btn-cad:hover{
+    text-decoration: underline;
+}
+
+#btn-rem{
+   color: blue;
 }
 
 /*TELA DE CADASTRO*/
@@ -187,6 +201,22 @@ form{
     margin-top: 2em;
     margin-bottom: 2em;
     letter-spacing: .5px;
+}
+
+#cadastro .botao-cad:active {
+    transition: 0.2s;
+    background-color: #7531b8;
+    color: white;
+}
+
+#btn-login{
+    margin-bottom: 1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#btn-login:hover{
+    text-decoration: underline;
 }
 
 
