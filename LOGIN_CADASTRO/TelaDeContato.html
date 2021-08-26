@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="CSSCadastro.css">
+    <link rel="shortcut icon" href="TECNOFLOW.png">
+    <title>TecnoFlow - Contato </title>
+</head>
+<body>
+
+<header>
+
+    <div id="sidebar">
+        <div class="toggle-btn" onclick="toggleSidebar()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul>
+          <li><a href="TeladeCadastro.html">Cadastro</a></li>
+          <li><a href="TeladeLogin.html">Login</a></li>
+          <li><a href="">Quem somos</a></li>
+          <li><a href="TelaDeContato.html">Contato</a></li>
+          
+        </ul>
+      </div>
+   
+
+      <main>
+        <div>
+          <h2>TecnoFlow</h2>
+          <p>Alguma reclamação?</p>
+          <hr>
+
+          <img src="IMAGENS/e-mail.png">
+
+        </div>
+
+        <div>
+          <form>
+
+            <input type="name" name="nome" placeholder="Nome" required>
+            <input type="email" name="email "placeholder="Email" required>
+            <input type="text" placeholder="Assunto do email" required>
+            <textarea placeholder="Reclamação ou dúvida:"></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+
+        </div>
+
+
+      </main>
+
+
+
+  <script>
+    function toggleSidebar(){
+      document.getElementById('sidebar').classList.toggle('active');
+    }
+  </script>
+    
+</body>
+</html>
