@@ -135,10 +135,6 @@ body{
     text-decoration: underline;
 }
 
-#btn-rem{
-   color: blue;
-}
-
 /*TELA DE CADASTRO*/
 
 #cadastro{
@@ -209,14 +205,81 @@ form{
     color: white;
 }
 
-#btn-login{
+#btn-logar{
     margin-bottom: 1em;
     text-decoration: none;
     transition: 0.2s;
+    
 }
 
-#btn-login:hover{
+#btn-logar:hover{
     text-decoration: underline;
+}
+
+/*TELA DE CONTATO*/
+
+#cabecalho .title{
+    color: #707070;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+#Contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin-bottom: 3em;
+}
+
+#img-email{
+    text-align: center;
+    height: 8em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#Contato .txt-box3 {
+    width: 18em;
+    height: 2.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 50px;
+    border: solid 1px #707070;
+    padding-left: 10px;
+}
+
+#Contato textarea{
+    display: block;
+    margin-bottom: 1em;
+    border-radius: 15px;
+    width: 95%;
+    resize:none;
+}
+
+#Contato .botao-contato{
+    width: 11em;
+    height: 2.5em;
+    border: solid 2px #7531b8;
+    text-align: center;
+    border-radius: 50px;
+    color: #707070;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    letter-spacing: .5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    
+}
+
+#Contato .botao-contato:active {
+    transition: 0.2s;
+    background-color: #7531b8;
+    color: white;
 }
 
 

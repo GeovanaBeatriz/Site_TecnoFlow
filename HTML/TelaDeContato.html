@@ -29,32 +29,30 @@
    
 
       <main>
-        <div>
+        <div id="cabecalho" >
           <h2>TecnoFlow</h2>
-          <p>Alguma reclamação?</p>
-          <hr>
+          <h3 class="title">Alguma reclamação?</h3>
+          <hr color="gray">
 
-          <img src="..\IMAGENS\e-mail.png">
+          <img src="..\IMAGENS\e-mail.png" alt="imagem-email" id="img-email">
 
         </div>
 
-        <div>
-          <form>
+        <div id="Contato">
+          <form action="#" method="POST">
 
-            <input type="name" name="nome" placeholder="Nome" required>
-            <input type="email" name="email "placeholder="Email" required>
-            <input type="text" placeholder="Assunto do email" required>
-            <textarea placeholder="Reclamação ou dúvida:"></textarea>
+            <input type="name" name="nome" placeholder="Nome" class="txt-box3" required>
+            <input type="email" name="email "placeholder="Email" class="txt-box3" required>
+            <input type="text" placeholder="Assunto do email" class="txt-box3" required>
+            <textarea placeholder="Reclamação ou dúvida:" rows="7"  required></textarea>
 
-            <button type="submit">Enviar</button>
+            <button type="submit" class="botao-contato">Enviar</button>
           </form>
 
         </div>
 
 
       </main>
-
-
 
   <script>
     function toggleSidebar(){
