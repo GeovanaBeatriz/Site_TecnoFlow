@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/CSSCadastro.css">
+        <link rel="shortcut icon" href="TECNOFLOW.png">
+        <title>TecnoFlow - Login </title>
+    </head>
+  <body>
+
+    <header> <!-- GEH GEH -->
+
+      <div id="sidebar">
+        <div class="toggle-btn" onclick="toggleSidebar()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul>
+          <li><a href="TeladeCadastro.html">Cadastro</a></li>
+          <li><a href="TeladeLogin.html">Login</a></li>
+          <li class="ativo"><a href="QuemSomos.html">Quem somos</a></li>
+          <li><a href="TelaDeContato.html">Contato</a></li>
+          
+        </ul>
+      </div>
+
+    </header> <!-- /GEH GEH -->
+
+    <main> <!-- NIKITA -->
+        <div id="cabecalho">
+          <h2 class="titulos">TecnoFlow</h2>
+          <h3 class="subtitulos">Saiba mais sobre nós!</h4>
+        </div>
+        
+        <div id="quem-somos"> 
+            <div id="card-quem-somos" class="card">
+                <img src="../IMAGENS/joysticks.png" alt="Quem Somos">
+                <h5>Quem Somos</h5>
+                <span></span>
+                <p>A TecnoFlow é uma empresa de vendas de aparelhos tecnológios.</p>
+            </div>
+            <div id="card-objetivo-pessoal" class="card">
+                <img src="../IMAGENS/programacao.png" alt="">
+                <h5>Objetivo Pessoal</h5>
+                <span></span>
+                <p>Desenvolver uma solução para vendas em formato WEB para estudos.</p>
+            </div>
+            <div id="card-objetivo-site" class="card">
+                <img src="../IMAGENS/equipe.png" alt="">
+                <h5>Objetivo do Site</h5>
+                <span></span>
+                <p>Exibir produtos tecnológios e efetuar vendas.</p>
+            </div>
+            <div id="card-encontrar-codigo" class="card">
+                <img src="../IMAGENS/github.png" alt="">
+                <h5>Onde Encontrar Nosso Código</h5>
+                <span></span>
+                <p>Acesse nosso GitHub para encontrar o código desenvolvido do TecnoFlow.</p>
+            </div>
+        </div>
+         
+    </main> <!-- /NIKITA -->
+
+    <script>
+      function toggleSidebar(){
+        document.getElementById('sidebar').classList.toggle('active');
+      }
+    </script>
+        
+  </body>
+</html>

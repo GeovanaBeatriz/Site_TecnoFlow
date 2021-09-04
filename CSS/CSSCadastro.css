@@ -255,7 +255,7 @@ form{
     margin-bottom: 1em;
     border-radius: 15px;
     width: 95%;
-    resize:none;
+    resize: none;
 }
 
 #Contato .botao-contato{
@@ -279,6 +279,133 @@ form{
 #Contato .botao-contato:active {
     transition: 0.2s;
     background-color: #7531b8;
+    color: white;
+}
+
+
+/*NICOLEZITA*/
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 20%;
+    justify-content: space-around;
+}
+
+.titulos {
+    color: #707070;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 0.3em;
+}
+
+.subtitulos {
+    color: #707070;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#titulo-login {
+    margin-bottom: 1em;
+}
+
+#cabecalho h2 {
+    margin-bottom: none;
+}
+
+#imagem-perfil {
+    width: 12em;
+    border-radius: 100%;
+}
+
+#quem-somos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 2.5em;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20em;
+    height: 20em;
+    background-color: white;
+    margin-bottom: 2.5em;
+    border-radius: 12%;
+    border: 1px solid #7531b8;
+    box-shadow: 1px 1px 10px #707070;
+}
+
+.card img {
+    width: 8em;
+    margin-top: 1em;
+}
+
+.card h5 {
+    color: #707070;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.card span {
+    width: 18em;
+    height: 2px;
+    background-color: #7531b8;
+    margin-top: 1em;
+}
+
+.card p {
+    color: #707070;
+    margin: 1em 2em 0em 2em;
+    text-align: center;
+}
+
+#cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.txt-box {
+    width: 18em;
+    height: 2.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 10px;
+    border: solid 1px #707070;
+    padding-left: 10px;
+}
+
+.botao {
+    width: 11em;
+    height: 2em;
+    border: solid 2px #7531b8;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #707070;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.botao:active {
+    transition: 0.2s;
+    background-color: #7531b8;
+    color: white;
+}
+
+.ativo a{
     color: white;
 }
 
