@@ -283,7 +283,8 @@ form{
 }
 
 
-/*NICOLEZITA*/
+/*TELA QUEM SOMOS
+*/
 
 #cabecalho {
     display: flex;
@@ -410,5 +411,3 @@ form{
 }
 
 
-@media screen and (min-width: 48.75em){
-}

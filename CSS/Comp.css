@@ -1,0 +1,104 @@
+@media screen and (min-width: 48.75em){
+    #sidebar{
+        justify-content: end;
+        position: none;
+        height: 4em;
+        width: 100%;
+        background-color: #bc99db;
+        border-bottom: 1px solid #707070b2;;
+        left: 0;
+       
+    }
+    
+    #sidebar ul li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 1em;
+        border-bottom: 0px solid #707070b2;
+        padding: 0;
+        text-align: center;
+    }
+
+    #sidebar ul{
+        text-align: right;
+        margin: 20px 50px 0 0;
+    }
+    
+    #sidebar a{
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-bottom: 1.5px solid #707070b2;
+        transition: linear .5s;
+        padding-bottom: .5em;
+    }
+
+    #sidebar a:active{
+        color:white;
+    }
+
+    #sidebar a:hover{
+        color:white;
+    }
+    
+    
+    #sidebar .toggle-btn{
+        position: none;
+    }
+    
+    
+    #sidebar .toggle-btn span{
+        display: none;
+    }
+    
+    #sidebar.active{
+        left: 0px;
+    }
+
+    /*CADASTRO*/
+
+    
+    #cabecalho h2{
+        color: #707070;
+        font-size: 1em;
+        text-transform: uppercase;
+        margin-top: -2em;
+    }
+    
+    #cabecalho h3{
+        color: #707070;
+        font-size: 2em;
+        margin-top: -1em;
+        margin-bottom: 2em;
+    }
+
+    form{
+        
+        background-color: rgba(247, 247, 247, 0.644);
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-left: 15px;
+        margin-top: -2em;
+        padding-bottom: 10px;
+        width: 17em;
+        
+    }
+
+    .botao-cad{
+        margin-top: 1em;
+    }
+
+    #btn-logar{
+        margin-top: -1em;
+    }
+
+    @media screen and (min-width: 70.75em){
+        #cabecalho h2{
+            color: #707070;
+            font-size: 1em;
+            text-transform: uppercase;
+            margin-top: -4em;
+        }
+
+    }
+}
