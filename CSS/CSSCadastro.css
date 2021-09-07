@@ -9,6 +9,14 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+ ::-webkit-scrollbar{
+    width: 10px;
+ }
+ 
+ ::-webkit-scrollbar-thumb{
+     background-color: rgb(121, 120, 120);
+     border-radius: 20px;
+ }
 
 
 #sidebar{
@@ -218,7 +226,7 @@ form{
 
 /*TELA DE CONTATO*/
 
-#cabecalho .title{
+#cabecalho .title1{
     color: #707070;
     font-size: 1.5em;
     margin-top: 0.5em;
@@ -230,6 +238,7 @@ form{
     align-items: center;
     flex-direction: column; 
     margin-bottom: 3em;
+    
 }
 
 #img-email{
@@ -280,6 +289,11 @@ form{
     transition: 0.2s;
     background-color: #7531b8;
     color: white;
+}
+
+.textarea::-webkit-input-placeholder { /*ESTIZANDO O PLACEHOLDER*/
+   padding-left: .5em;
+   padding-top: .5em;
 }
 
 
